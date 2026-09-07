@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-mono: "JetBrains Mono", Menlo, Courier, monospace;
+  --font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-clay-canvas: #EEF2F6;
+  --color-clay-card: #FFFFFF;
+  --color-clay-inset: #E4EBF2;
+  --color-clay-primary: #6366F1;
+  --color-clay-coral: #F97316;
+  --color-clay-emerald: #10B981;
+  --color-clay-slate: #1E293B;
+}
+
+body {
+  background-color: #EEF2F6;
+  color: #1E293B;
+  font-family: var(--font-sans);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(249, 115, 22, 0.04) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Claymorphic 3D Surface Utility Classes */
+.clay-card {
+  background-color: #FFFFFF;
+  border-radius: 1.75rem; /* 28px */
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    10px 14px 28px -4px rgba(148, 163, 184, 0.26),
+    -8px -8px 22px 0px rgba(255, 255, 255, 0.95),
+    inset 2px 3px 6px rgba(255, 255, 255, 0.9),
+    inset -3px -4px 7px rgba(148, 163, 184, 0.12);
+}
+
+.clay-card-sm {
+  background-color: #FFFFFF;
+  border-radius: 1.25rem; /* 20px */
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    6px 8px 18px -2px rgba(148, 163, 184, 0.22),
+    -5px -5px 14px 0px rgba(255, 255, 255, 0.9),
+    inset 1px 2px 4px rgba(255, 255, 255, 0.9),
+    inset -2px -2px 5px rgba(148, 163, 184, 0.1);
+}
+
+.clay-card-dark {
+  background: linear-gradient(145deg, #1E293B, #0F172A);
+  border-radius: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    10px 16px 30px rgba(15, 23, 42, 0.35),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.15),
+    inset -3px -4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.clay-inset {
+  background-color: #E6EDF5;
+  border-radius: 1.25rem;
+  box-shadow: 
+    inset 3px 4px 8px rgba(148, 163, 184, 0.28),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(203, 213, 225, 0.4);
+}
+
+.clay-btn {
+  border-radius: 1rem;
+  font-weight: 700;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  user-select: none;
+}
+
+.clay-btn:active {
+  transform: translateY(2px) scale(0.98);
+}
+
+.clay-btn-primary {
+  background: linear-gradient(135deg, #6366F1 0%, #4F46E5 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    5px 8px 18px rgba(99, 102, 241, 0.38),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+    inset -2px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.clay-btn-primary:hover {
+  background: linear-gradient(135deg, #4F46E5 0%, #4338CA 100%);
+  box-shadow: 
+    6px 10px 22px rgba(99, 102, 241, 0.46),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.45);
+}
+
+.clay-btn-coral {
+  background: linear-gradient(135deg, #FB923C 0%, #EA580C 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    5px 8px 18px rgba(234, 88, 12, 0.38),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+    inset -2px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.clay-btn-coral:hover {
+  background: linear-gradient(135deg, #EA580C 0%, #C2410C 100%);
+}
+
+.clay-btn-emerald {
+  background: linear-gradient(135deg, #34D399 0%, #059669 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    5px 8px 18px rgba(5, 150, 105, 0.38),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.4),
+    inset -2px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.clay-btn-light {
+  background-color: #FFFFFF;
+  color: #334155;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    4px 6px 14px rgba(148, 163, 184, 0.24),
+    -4px -4px 10px rgba(255, 255, 255, 0.95),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    inset -2px -2px 4px rgba(148, 163, 184, 0.1);
+}
+
+.clay-btn-light:hover {
+  background-color: #F8FAFC;
+  color: #0F172A;
+}
+
+.clay-pill {
+  border-radius: 9999px;
+  box-shadow: 
+    3px 4px 10px rgba(148, 163, 184, 0.22),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.8),
+    inset -1px -1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.clay-input {
+  background-color: #F1F5F9;
+  border-radius: 1rem;
+  border: 1px solid rgba(203, 213, 225, 0.6);
+  box-shadow: 
+    inset 2px 3px 6px rgba(148, 163, 184, 0.24),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.9);
+}
+
+.clay-input:focus {
+  outline: none;
+  border-color: #818CF8;
+  box-shadow: 
+    inset 2px 3px 6px rgba(148, 163, 184, 0.2),
+    0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+

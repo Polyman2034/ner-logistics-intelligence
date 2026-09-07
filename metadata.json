@@ -1,0 +1,7 @@
+{
+  "name": "PANDAVAS NER Logistics Intelligence Platform",
+  "description": "AI-enabled logistics and road accessibility intelligence platform for the North Eastern Region of India.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
