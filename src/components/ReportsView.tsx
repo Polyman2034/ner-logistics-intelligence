@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Reports, Profile, Audit, Sync, API & Multi-Language Settings in Claymorphic Aesthetics
  */
 
@@ -189,7 +189,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
                   const url = URL.createObjectURL(blob);
                   const a = document.createElement('a');
                   a.href = url;
-                  a.download = `pandavas-report-${Date.now()}.csv`;
+                  a.download = `RouteMind-report-${Date.now()}.csv`;
                   a.click();
                 }}
                 className="clay-btn clay-btn-coral px-4 py-2 text-xs flex items-center gap-1.5 rounded-xl font-bold"

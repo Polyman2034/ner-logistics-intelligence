@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Realistic North Eastern Region Seed Data & Domain State
  */
 
@@ -98,11 +98,11 @@ export const INITIAL_USERS: User[] = [
   {
     id: 'usr-sys-07',
     name: 'Devika Baruah',
-    email: 'sysadmin@pandavas-ner.nic.in',
+    email: 'sysadmin@RouteMind-ner.nic.in',
     phone: '+91 98640 11984',
     username: 'sys_devika',
     role: 'SYSTEM_ADMIN',
-    organization: 'PANDAVAS Core Infrastructure Operations',
+    organization: 'RouteMind Core Infrastructure Operations',
     state: 'Assam',
     avatarUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80',
     createdAt: '2025-01-01T00:00:00Z'

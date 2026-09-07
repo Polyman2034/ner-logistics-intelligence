@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Master Full-Stack Application Component in Claymorphism Aesthetics & Multilingual Architecture
  */
 
@@ -475,7 +475,7 @@ function AppContent() {
                 <span className="text-[10px] font-extrabold text-orange-500 uppercase tracking-wider block mb-0.5">
                   Security & Access Control
                 </span>
-                <h3 className="font-extrabold text-base text-slate-800">PANDAVAS Access Control</h3>
+                <h3 className="font-extrabold text-base text-slate-800">RouteMind Access Control</h3>
                 <p className="text-xs text-slate-500">Simulate any of the 7 authenticated personas</p>
               </div>
               <button
@@ -542,14 +542,14 @@ function AppContent() {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
-              <span className="text-slate-800 font-bold">PANDAVAS System: 100% Operational</span>
+              <span className="text-slate-800 font-bold">RouteMind System: 100% Operational</span>
             </span>
             <span className="text-slate-400 hidden md:inline font-mono text-[11px]">
               NER Bounds: 23.0°N - 28.5°N | 88.0°E - 95.5°E
             </span>
           </div>
           <div className="flex items-center gap-6 text-[11px] text-slate-500">
-            <span>© PANDAVAS NER Logistics Intelligence</span>
+            <span>© RouteMind NER Logistics Intelligence</span>
             <span className="px-2 py-0.5 rounded-full bg-white text-indigo-600 font-bold shadow-sm">
               22 Languages Supported
             </span>

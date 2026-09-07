@@ -1,5 +1,5 @@
 -- ====================================================================
--- PANDAVAS NER Logistics Intelligence Platform
+-- NER Logistics Intelligence Platform
 -- PostgreSQL / PostGIS / Supabase Database Schema
 -- ====================================================================
 

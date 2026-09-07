@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Global Navigation Header with Claymorphism Aesthetics, 22-Language Selector & RBAC
  */
 
@@ -99,7 +99,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-xl sm:text-2xl tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-900 bg-clip-text text-transparent">
-                PANDAVAS<span className="text-orange-500">.NER</span>
+                RouteMind<span className="text-orange-500">.NER</span>
               </span>
               <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 shadow-[inset_1px_1px_2px_rgba(255,255,255,0.9),inset_-1px_-1px_2px_rgba(99,102,241,0.15)]">
                 v2.4

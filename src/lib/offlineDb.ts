@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Offline-First Storage & Synchronization Engine (IndexedDB + Dexie.js)
  */
 

@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Full-Stack Express Server & Vite Dev Middleware
  */
 
@@ -31,7 +31,7 @@ async function startServer() {
   app.get('/health', (req, res) => {
     res.json({
       status: 'ok',
-      service: 'pandavas-ner-platform',
+      service: 'routemind-ner-platform',
       version: '1.0.0',
       region: 'North Eastern Region (NER), India',
       timestamp: new Date().toISOString()
@@ -57,7 +57,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[PANDAVAS] Server active at http://0.0.0.0:${PORT}`);
+    console.log(`[RouteMind] Server active at http://0.0.0.0:${PORT}`);
   });
 }
 

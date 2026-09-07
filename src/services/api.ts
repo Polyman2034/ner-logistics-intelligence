@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Frontend API Service Layer with Offline Dexie Integration & RBAC Headers
  */
 

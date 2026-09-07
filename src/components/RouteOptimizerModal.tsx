@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * AI Route Optimization & Alternate Route Recommendation Modal in Claymorphism Aesthetics
  */
 
@@ -203,7 +203,7 @@ export const RouteOptimizerModal: React.FC<RouteOptimizerModalProps> = ({
               </div>
 
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-bold text-emerald-800 uppercase tracking-wider">PANDAVAS Bypass</span>
+                <span className="text-[10px] font-bold text-emerald-800 uppercase tracking-wider">RouteMind Bypass</span>
                 <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-900 font-bold text-[10px] uppercase">
                   {currentData.alternate.status}
                 </span>

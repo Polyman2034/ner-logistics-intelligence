@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Dashboard View in Claymorphic Aesthetics with Full 22-Language Support
  */
 
@@ -114,7 +114,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             </div>
 
             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-800 tracking-tight leading-tight">
-              PANDAVAS Regional Terrain & <br className="hidden sm:inline" />
+              RouteMind Regional Terrain & <br className="hidden sm:inline" />
               <span className="bg-gradient-to-r from-indigo-600 to-orange-500 bg-clip-text text-transparent">
                 Corridor Logistics Intelligence
               </span>

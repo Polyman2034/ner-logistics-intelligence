@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * REST API Endpoints with Role-Based Access Control (RBAC)
  */
 
@@ -40,7 +40,7 @@ function getUserContext(req: Request): { role: UserRole; userId: string; userNam
 apiRouter.get('/health', (req: Request, res: Response) => {
   res.json({
     status: 'ok',
-    service: 'PANDAVAS NER Logistics Intelligence API',
+    service: 'RouteMind NER Logistics Intelligence API',
     version: '1.0.0',
     region: 'North Eastern Region (NER), India',
     timestamp: new Date().toISOString(),
@@ -54,7 +54,7 @@ apiRouter.get('/docs', (req: Request, res: Response) => {
   res.json({
     openapi: '3.0.0',
     info: {
-      title: 'PANDAVAS NER Logistics Intelligence Platform API',
+      title: 'RouteMind NER Logistics Intelligence Platform API',
       version: '1.0.0',
       description: 'Production REST API powering road accessibility, GIS, AI risk prediction, fleet tracking, and incident reporting across Northeast India.'
     },

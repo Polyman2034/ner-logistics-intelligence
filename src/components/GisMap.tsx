@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * Interactive GIS Engine with Road Accessibility, Incidents, Telemetry & Risk Zones
  */
 

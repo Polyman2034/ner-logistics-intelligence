@@ -1,5 +1,5 @@
 -- ====================================================================
--- PANDAVAS NER Logistics Intelligence Platform
+-- NER Logistics Intelligence Platform
 -- Seed Data for North Eastern Region of India
 -- ====================================================================
 

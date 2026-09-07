@@ -115,7 +115,7 @@ export type TranslationKey =
 
 export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> = {
   en: {
-    appName: 'PANDAVAS NER',
+    appName: 'RouteMind NER',
     tagline: 'Regional Logistics & Terrain Intelligence',
     navDashboard: '1. Dashboard',
     navMap: '2. Live GIS Operations',
@@ -171,7 +171,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'BLOCKED'
   },
   as: {
-    appName: 'পাণ্ডৱাস উত্তৰ-পূব (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'আঞ্চলিক পৰিবহন আৰু ভূ-প্ৰকৃতি চোৰাংচোৱাগিৰি',
     navDashboard: '১. ডেচব\'ৰ্ড',
     navMap: '২. লাইভ জি.আই.এছ. কাৰ্যকলাপ',
@@ -227,7 +227,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'অৱৰুদ্ধ'
   },
   bn: {
-    appName: 'পাণ্ডব এন.ই.আৰ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'আঞ্চলিক লজিস্টিক ও ভূখণ্ড গোয়েন্দা তথ্য',
     navDashboard: '১. ড্যাশবোর্ড',
     navMap: '২. লাইভ জিআইএস অপারেশন',
@@ -283,7 +283,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'অবরুদ্ধ'
   },
   brx: {
-    appName: 'पाण्डवास एन.इ.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'लजिस्टिक्स आरो हा-जोमा सिस्तिम',
     navDashboard: '१. देसबर्ड',
     navMap: '२. जि.आइ.एस. मखौ',
@@ -339,7 +339,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'बन्द'
   },
   hi: {
-    appName: 'पाण्डवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'पूर्वोत्तर रसद एवं पर्वतीय भूभाग आसूचना मंच',
     navDashboard: '1. डैशबोर्ड',
     navMap: '2. लाइव जीआईएस मानचित्र',
@@ -395,7 +395,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'अवरुद्ध'
   },
   mni: {
-    appName: 'পাণ্ডৱাস এন.ই.আর (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'নোংপোক-অৱাং থংনা লম্বী অমসুং লজিস্টিক ইন্তেলিজেন্স',
     navDashboard: '১. দেশবোর্দ',
     navMap: '২. লাইভ জি.আই.এস লম্বী',
@@ -451,7 +451,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'থিংজিনবা'
   },
   ne: {
-    appName: 'पाण्डवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'उत्तर-पूर्वी क्षेत्रीय रसद तथा पहाडी भूभाग इन्टेलिजेन्स',
     navDashboard: '१. ड्यासबोर्ड',
     navMap: '२. प्रत्यक्ष जीआईएस नक्शा',
@@ -508,7 +508,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
   },
   // Other scheduled languages with consistent fallback mapping to provide high-quality localized headings
   doi: {
-    appName: 'पाण्डवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'क्षेत्रीय लजिस्टिक्स ते पहाड़ी इलाका आसूचना',
     navDashboard: '1. डैशबोर्ड',
     navMap: '2. लाइव जीआईएस नक्शा',
@@ -564,7 +564,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'बंद'
   },
   gu: {
-    appName: 'પાંડવાસ એન.ઈ.આર (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'પ્રાદેશિક લોજિસ્ટિક્સ અને પર્વતીય ઇન્ટેલિજન્સ',
     navDashboard: '1. ડેશબોર્ડ',
     navMap: '2. લાઈવ જીઆઈએસ મેપ',
@@ -620,7 +620,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'બંધ'
   },
   kn: {
-    appName: 'ಪಾಂಡವಾಸ್ ಎನ್.ಇ.ಆರ್ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'ಪ್ರಾದೇಶಿಕ ಲಾಜಿಸ್ಟಿಕ್ಸ್ ಮತ್ತು ಭೂಪ್ರದೇಶ ಇಂಟೆಲಿಜೆನ್ಸ್',
     navDashboard: '1. ಡ್ಯಾಶ್‌ಬೋರ್ಡ್',
     navMap: '2. ಲೈವ್ ಜಿಐಎಸ್ ಕಾರ್ಯಾಚರಣೆ',
@@ -676,7 +676,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'ಬಂದ್'
   },
   ks: {
-    appName: 'پانڈواس این ای آر (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'علاقائی لاجسٹکس تہٕ خطہٕ انٹیلی جنس',
     navDashboard: '1. ڈیش بورڈ',
     navMap: '2. لائیو نقشہٕ',
@@ -732,7 +732,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'بند'
   },
   kok: {
-    appName: 'पाण्डवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'प्रादेशिक रसद आनी दोंगरी वाठार म्हायती',
     navDashboard: '1. डॅशबोर्ड',
     navMap: '2. थेट जीआयएस नकासो',
@@ -788,7 +788,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'बंद'
   },
   mai: {
-    appName: 'पाण्डवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'क्षेत्रीय लॉजिस्टिक्स आ पहाड़ी इलाका सूचना तंत्र',
     navDashboard: '1. डैशबोर्ड',
     navMap: '2. लाइव जीआईएस मानचित्र',
@@ -844,7 +844,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'बंद'
   },
   ml: {
-    appName: 'പാണ്ഡവാസ് എൻ.ഇ.ആർ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'മേഖലാ ലോജിസ്റ്റിക്സും പർവ്വത ഭൂപ്രകൃതി ഇന്റലിജൻസും',
     navDashboard: '1. ഡാഷ്‌ബോർഡ്',
     navMap: '2. തത്സമയ ജിഐഎസ് മാപ്പ്',
@@ -900,7 +900,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'തടസ്സപ്പെട്ടു'
   },
   mr: {
-    appName: 'पांडवास एन.ई.आर (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'प्रादेशिक लॉजिस्टिक्स व पर्वतीय भूभाग बुद्धिमत्ता मंच',
     navDashboard: '1. डॅशबोर्ड',
     navMap: '2. थेट जीआयएस नकाशा',
@@ -956,63 +956,119 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'बंद'
   },
   or: {
-    appName: 'ପାଣ୍ଡବାସ ଏନ.ଇ.ଆର (PANDAVAS NER)',
-    tagline: 'ଆଞ୍ଚଳିକ ପରିବହନ ଓ ପାର୍ବତ୍ୟ ଭୂଭାଗ ଗୁଇନ୍ଦା ମଞ୍ଚ',
-    navDashboard: '୧. ଡ୍ୟାସବୋର୍ଡ',
-    navMap: '୨. ଲାଇଭ୍ ଜିଆଇଏସ୍ ମ୍ୟାପ୍',
-    navReports: '୩. ପରିଚାଳନା ରିପୋର୍ଟ',
-    reportHazard: 'ବିପଦ ରିପୋର୍ଟ କରନ୍ତୁ',
-    live: 'ଲାଇଭ୍',
-    offline: 'ଅଫଲାଇନ୍',
-    syncPending: 'ସିଙ୍କ୍ କରନ୍ତୁ',
-    emergencyActive: 'ଜରୁରୀକାଳୀନ ସକ୍ରିୟ',
-    emergencyMode: 'ଜରୁରୀକାଳୀନ ପ୍ରୋଟୋକଲ୍',
-    searchPlaceholder: 'ରାଜପଥ (NH-27), ଜିଲ୍ଲା, ଗାଡ଼ି ଖୋଜନ୍ତୁ...',
-    heroSubtitle: 'ଉତ୍ତର-ପୂର୍ବାଞ୍ଚଳର ୮ ରାଜ୍ୟରେ ସୁରକ୍ଷିତ ରାସ୍ତା ନିରୀକ୍ଷଣ ଓ ଯୋଗାଣ ବ୍ୟବସ୍ଥା।',
-    calculateSafeCorridor: 'ସୁରକ୍ଷିତ ରାସ୍ତା ବାହାର କରନ୍ତୁ',
-    roadAccessibility: 'ରାସ୍ତା ସୁଗମତା',
-    ofArteries: 'ମୁଖ୍ୟ ରାସ୍ତାର',
-    activeHazards: 'ସକ୍ରିୟ ବିପଦ',
-    blockedRoads: 'ଅବରୋଧ ରାସ୍ତା',
-    fleetInTransit: 'ଯାତ୍ରାରେ ଥିବା ଗାଡ଼ି',
-    registeredCarriers: 'ପଞ୍ଜୀକୃତ ଗାଡ଼ି',
-    delayedMissions: 'ବିଳମ୍ବିତ ମିଶନ',
-    needsReroute: 'ବିକଳ୍ପ ରାସ୍ତା ଆବଶ୍ୟକ',
-    arterialHighwayStatus: 'ଜାତୀୟ ରାଜପଥ ସ୍ଥିତି',
-    openGisMap: 'ଜିଆଇଏସ୍ ମ୍ୟାପ୍ ଖୋଲନ୍ତୁ',
-    aiBriefingTitle: 'AI ପରିବହନ ବିବରଣୀ',
-    optimizeRoutes: 'ବିକଳ୍ପ ମାର୍ଗ',
-    weatherRadar: 'ପାଣିପାଗ ଓ ବର୍ଷା',
-    driverMission: 'ଡ୍ରାଇଭର ସକ୍ରିୟ ମିଶନ',
-    pickedUp: '୧. ଉଠାଗଲା',
-    inTransit: '୨. ରାସ୍ତାରେ ଅଛି',
-    delayed: '୩. ବିଳମ୍ବ',
-    delivered: '୪. ପହଞ୍ଚିଗଲା',
-    viewGpsRoute: 'GPS ବିକଳ୍ପ ମାର୍ଗ',
-    reportBlockageSos: 'ରାସ୍ତା ବନ୍ଦ SOS',
-    verificationQueue: 'ଯାଞ୍ଚ ଧାଡ଼ି',
-    verifyBlock: 'ଯାଞ୍ଚ କରି ରାସ୍ତା ବନ୍ଦ କରନ୍ତୁ',
-    reject: 'ପ୍ରତ୍ୟାଖ୍ୟାନ',
-    languageSettings: 'ଭାଷା ଓ ପ୍ରସାରଣ ସେଟିଙ୍ଗସ୍',
-    broadcastLanguages: 'ବହୁଭାଷୀ ବିପଦ ଚେତାବନୀ ପ୍ରସାରଣ',
-    broadcastDesc: 'ଜରୁରୀ ସୂଚନା ଓ ଡ୍ରାଇଭର ସତର୍କତା ପାଇଁ ଏକାଧିକ ଭାଷା ଚୟନ କରନ୍ତୁ।',
-    selectDisplayLang: 'ପ୍ରଦର୍ଶନ ଭାଷା ଚୟନ କରନ୍ତୁ',
-    activeBroadcastCount: 'ପ୍ରସାରଣ ପାଇଁ ଚୟନିତ ଭାଷା',
-    applySelection: 'ପ୍ରୟୋଗ କରନ୍ତୁ',
-    selectAll: 'ସବୁ ଚୟନ କରନ୍ତୁ (୨୨)',
-    clearAll: 'ଇଂରାଜୀ',
-    highways: 'ରାଜପଥ',
-    hazards: 'ବିପଦ',
-    vehicles: 'ଗାଡ଼ି',
-    riskZones: 'ବିପଦପୂର୍ଣ୍ଣ ଅଞ୍ଚଳ',
-    emergencyRoutes: 'ଜରୁରୀ ମାର୍ଗ',
-    corridorSafeBypass: 'ସୁରକ୍ଷିତ ବାଇପାସ୍',
-    allWeather: 'ଖୋଲା',
-    caution: 'ସତର୍କତା',
-    blocked: 'ବନ୍ଦ'
+   appName: 'RouteMind NER',
+
+  tagline: 'ଆଞ୍ଚଳିକ ପରିବହନ ଓ ପାର୍ବତ୍ୟ ଭୂଭାଗ ଗୁଇନ୍ଦା ମଞ୍ଚ',
+
+  navDashboard: '୧. ଡ୍ୟାସବୋର୍ଡ',
+
+  navMap: '୨. ଲାଇଭ୍ ଜିଆଇଏସ୍ ମ୍ୟାପ୍',
+
+  navReports: '୩. ପରିଚାଳନ ରିପୋର୍ଟ',
+
+  reportHazard:
+    'ଉତ୍ତର-ପୂର୍ବାଞ୍ଚଳର ୮ ରାଜ୍ୟରେ ସୁରକ୍ଷିତ ରାସ୍ତା ନିରୀକ୍ଷଣ ଓ ଯୋଗାଣ ବ୍ୟବସ୍ଥା।',
+
+  live: 'ଲାଇଭ୍',
+
+  offline: 'ଅଫଲାଇନ୍',
+
+  syncPending: 'ସିଙ୍କ୍ କରନ୍ତୁ',
+
+  emergencyActive: 'ଜରୁରୀକାଳୀନ ସକ୍ରିୟ',
+
+  emergencyMode: 'ଜରୁରୀକାଳୀନ ପ୍ରୋଟୋକଲ୍',
+
+  searchPlaceholder: 'ରାଜପଥ (NH-27), ଜିଲ୍ଲା, ଗାଡ଼ି ଖୋଜନ୍ତୁ...',
+
+  heroSubtitle:
+    'ଉତ୍ତର-ପୂର୍ବାଞ୍ଚଳର ୮ ରାଜ୍ୟରେ ସୁରକ୍ଷିତ ରାସ୍ତା ନିରୀକ୍ଷଣ ଓ ଯୋଗାଣ ବ୍ୟବସ୍ଥା।',
+
+  calculateSafeCorridor: 'ସୁରକ୍ଷିତ ରାସ୍ତା ବାହାର କରନ୍ତୁ',
+
+  roadAccessibility: 'ରାସ୍ତା ସୁଗମତା',
+
+  ofArteries: 'ମୁଖ୍ୟ ରାସ୍ତାର',
+
+  activeHazards: 'ସକ୍ରିୟ ବିପଦ',
+
+  blockedRoads: 'ଅବରୋଧ ରାସ୍ତା',
+
+  fleetInTransit: 'ଯାତ୍ରାରେ ଥିବା ଗାଡ଼ି',
+
+  registeredCarriers: 'ପଞ୍ଜୀକୃତ ଗାଡ଼ି',
+
+  delayedMissions: 'ବିଳମ୍ବିତ ମିଶନ',
+
+  needsReroute: 'ବିକଳ୍ପ ରାସ୍ତା ଆବଶ୍ୟକ',
+
+  arterialHighwayStatus: 'ଜାତୀୟ ରାଜପଥ ସ୍ଥିତି',
+
+  openGisMap: 'ଜିଆଇଏସ୍ ମ୍ୟାପ୍ ଖୋଲନ୍ତୁ',
+
+  aiBriefingTitle: 'AI ପରିବହନ ବିବରଣୀ',
+
+  optimizeRoutes: 'ବିକଳ୍ପ ମାର୍ଗ',
+
+  weatherRadar: 'ପାଣିପାଗ ଓ ବର୍ଷା',
+
+  driverMission: 'ଡ୍ରାଇଭର ସକ୍ରିୟ ମିଶନ',
+
+  pickedUp: '୧. ଉଠାଗଲା',
+
+  inTransit: '୨. ରାସ୍ତାରେ ଅଛି',
+
+  delayed: '୩. ବିଳମ୍ବ',
+
+  delivered: '୪. ପହଞ୍ଚିଗଲା',
+
+  viewGpsRoute: 'GPS ବିକଳ୍ପ ମାର୍ଗ',
+
+  reportBlockageSos: 'ରାସ୍ତା ବନ୍ଦ SOS',
+
+  verificationQueue: 'ଯାଞ୍ଚ ଧାଡ଼ି',
+
+  verifyBlock: 'ଯାଞ୍ଚ କରି ରାସ୍ତା ବନ୍ଦ କରନ୍ତୁ',
+
+  reject: 'ପ୍ରତ୍ୟାଖ୍ୟାନ',
+
+  languageSettings: 'ଭାଷା ଓ ପ୍ରସାରଣ ସେଟିଙ୍ଗସ୍',
+
+  broadcastLanguages: 'ବହୁଭାଷୀ ବିପଦ ଚେତାବନୀ ପ୍ରସାରଣ',
+
+  broadcastDesc:
+    'ଜରୁରୀ ସୂଚନା ଓ ଡ୍ରାଇଭର ସତର୍କତା ପାଇଁ ଏକାଧିକ ଭାଷା ଚୟନ କରନ୍ତୁ।',
+
+  selectDisplayLang: 'ପ୍ରଦର୍ଶନ ଭାଷା ଚୟନ କରନ୍ତୁ',
+
+  activeBroadcastCount: 'ପ୍ରସାରଣ ପାଇଁ ଚୟନିତ ଭାଷା',
+
+  applySelection: 'ପ୍ରୟୋଗ କରନ୍ତୁ',
+
+  selectAll: 'ସବୁ ଚୟନ କରନ୍ତୁ (୨୨)',
+
+  clearAll: 'ସବୁ ବାତିଲ କରନ୍ତୁ',
+
+  highways: 'ରାଜପଥ',
+
+  hazards: 'ବିପଦ',
+
+  vehicles: 'ଗାଡ଼ି',
+
+  riskZones: 'ବିପଦପୂର୍ଣ୍ଣ ଅଞ୍ଚଳ',
+
+  emergencyRoutes: 'ଜରୁରୀ ମାର୍ଗ',
+
+  corridorSafeBypass: 'ସୁରକ୍ଷିତ ବାଇପାସ୍',
+
+  allWeather: 'ଖୋଲା',
+
+  caution: 'ସତର୍କତା',
+
+  blocked: 'ବନ୍ଦ',
   },
   pa: {
-    appName: 'ਪਾਂਡਵਾਸ ਐਨ.ਈ.ਆਰ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'ਖੇਤਰੀ ਲੌਜਿਸਟਿਕਸ ਅਤੇ ਪਹਾੜੀ ਖੇਤਰ ਸੂਚਨਾ ਪ੍ਰਣਾਲੀ',
     navDashboard: '1. ਡੈਸ਼ਬੋਰਡ',
     navMap: '2. ਲਾਈਵ ਜੀ.ਆਈ.ਐਸ ਨਕਸ਼ਾ',
@@ -1068,7 +1124,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'ਬੰਦ'
   },
   sat: {
-    appName: 'ᱯᱟᱱᱰᱟᱵᱷᱟᱥ ᱮᱱ.ᱤ.ᱟᱨ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'ᱴᱚᱴᱷᱟᱠᱤᱭᱟᱹ ᱞᱚᱡᱤᱥᱴᱤᱠᱥ ᱟᱨ ᱵᱩᱨᱩ ᱴᱷᱟᱶ ᱛᱚᱞᱟᱥ',
     navDashboard: '᱑. ᱰᱮᱥᱵᱳᱨᱰ',
     navMap: '᱒. ᱡᱤ.ᱟᱭ.ᱮᱥ ᱢᱮᱯ',
@@ -1124,7 +1180,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'ᱵᱚᱸᱫᱽ'
   },
   sd: {
-    appName: 'پانڊواس اين اي آر (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'علائقائي لاجسٽڪس ۽ جابلو زميني معلومات',
     navDashboard: '1. ڊيش بورڊ',
     navMap: '2. لائيو جي آءِ ايس نقشو',
@@ -1180,7 +1236,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'بند'
   },
   ta: {
-    appName: 'பாண்டவாஸ் என்.இ.ஆர் (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'பிராந்திய தளவாடங்கள் மற்றும் மலைப்பகுதி உளவுத்துறை',
     navDashboard: '1. முகப்பு',
     navMap: '2. நேரலை ஜிஐஎஸ் வரைபடம்',
@@ -1236,12 +1292,12 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'தடைபட்டது'
   },
   te: {
-    appName: 'పాండవాస్ ఎన్.ఈ.ఆర్ (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'ప్రాంతీయ లాజిస్టిక్స్ మరియు పర్వత భూభాగ సమాచార వేదిక',
     navDashboard: '1. డ్యాష్‌బోర్డ్',
     navMap: '2. ప్రత్యక్ష జిఐఎస్ మ్యాప్',
-    navReports: '3. కార్యాచరణ నివేదికలు',
-    reportHazard: 'ప్రమాదాన్ని నివేదించండి',
+    navReports: '3. కார்யாதரண நிவேதிகள்',
+    reportHazard: 'பிழையை அறிவிக்கவும்',
     live: 'లైవ్',
     offline: 'ఆఫ్‌లైన్',
     syncPending: 'సింక్ చేయండి',
@@ -1292,7 +1348,7 @@ export const TRANSLATIONS: Record<LanguageCode, Record<TranslationKey, string>> 
     blocked: 'మూసివేయబడింది'
   },
   ur: {
-    appName: 'پانڈواس این ای آر (PANDAVAS NER)',
+    appName: 'RouteMind NER',
     tagline: 'علاقائی لاجسٹکس اور پہاڑی خطہ انٹیلی جنس',
     navDashboard: '1. ڈیش بورڈ',
     navMap: '2. لائیو جی آئی ایس نقشہ',

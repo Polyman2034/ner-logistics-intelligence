@@ -128,7 +128,7 @@ export const LanguageSettingsModal: React.FC<LanguageSettingsModalProps> = ({
             /* TAB 1: Single UI Display Language Selector */
             <div className="space-y-2">
               <p className="text-xs text-slate-500 px-1">
-                Select your primary navigation and operational language across the PANDAVAS platform:
+                Select your primary navigation and operational language across the RouteMind platform:
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                 {filteredLanguages.map(lang => {
@@ -199,7 +199,7 @@ export const LanguageSettingsModal: React.FC<LanguageSettingsModalProps> = ({
                       Multi-Language Automated Broadcast Engine
                     </h4>
                     <p className="text-[11px] text-amber-800 leading-relaxed mt-0.5">
-                      {t('broadcastDesc')} When disaster alerts, road blockages, or bypass directives are issued, the PANDAVAS platform dispatches multilingual notifications simultaneously across every checked language.
+                      {t('broadcastDesc')} When disaster alerts, road blockages, or bypass directives are issued, the RouteMind platform dispatches multilingual notifications simultaneously across every checked language.
                     </p>
                   </div>
                 </div>

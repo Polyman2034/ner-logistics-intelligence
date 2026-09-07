@@ -1,5 +1,5 @@
 /**
- * PANDAVAS NER Logistics Intelligence Platform
+ * RouteMind NER Logistics Intelligence Platform
  * AI Risk Prediction, Route Optimization & Situational Intelligence Engine
  */
 
@@ -198,7 +198,7 @@ export async function generateSituationalBriefing(query?: string): Promise<{
 
   if (client) {
     try {
-      const prompt = `You are the chief AI Logistics Officer for PANDAVAS NER Logistics Intelligence Platform, monitoring transportation and road accessibility across Northeast India (Assam, Arunachal Pradesh, Meghalaya, Sikkim, Nagaland, Manipur, Mizoram, Tripura).
+      const prompt = `You are the chief AI Logistics Officer for RouteMind NER Logistics Intelligence Platform, monitoring transportation and road accessibility across Northeast India (Assam, Arunachal Pradesh, Meghalaya, Sikkim, Nagaland, Manipur, Mizoram, Tripura).
 Current status:
 - Blocked Corridors: ${blockedRoads.join(', ') || 'None'}
 - Critical Incidents: ${criticalIncidents.map(i => `${i.title} (${i.districtName})`).join('; ') || 'None'}
@@ -248,7 +248,7 @@ Respond in clean JSON format:
       'NH-6 Meghalaya: Foundation scour on Byrnihat culvert reducing throughput to single lane'
     ],
     recommendedActions: [
-      'Enforce automated rerouting via PANDAVAS Alternate Route Engine for all Tawang & Gangtok consignments',
+      'Enforce automated rerouting via RouteMind Alternate Route Engine for all Tawang & Gangtok consignments',
       'Maintain real-time GPS polling on pharmaceutical and oxygen cylinder transports',
       'Coordinate with BRO Task Force 42 and State Disaster Management Authorities for clearance verification'
     ],
