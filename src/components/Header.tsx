@@ -94,7 +94,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Brand & Tagline */}
         <div className="flex items-center gap-3">
           <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white font-bold text-xl shadow-[4px_6px_14px_rgba(99,102,241,0.4),inset_2px_2px_4px_rgba(255,255,255,0.4),inset_-2px_-2px_4px_rgba(0,0,0,0.2)]">
-            P
+            R
           </div>
           <div>
             <div className="flex items-center gap-2">
