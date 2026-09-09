@@ -130,3 +130,5 @@ The interface includes multilingual support to make the platform more accessible
                     │       Data Layer          │
                     │    SQL / Application Data │
                     └───────────────────────────┘
+
+                                                                                “Learn. Build. Experiment. Improve.” 🚀 
