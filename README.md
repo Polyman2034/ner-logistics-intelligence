@@ -131,4 +131,6 @@ The interface includes multilingual support to make the platform more accessible
                     │    SQL / Application Data │
                     └───────────────────────────┘
 
-                                                                                “Learn. Build. Experiment. Improve.” 🚀 
+
+
+                                                “Learn. Build. Experiment. Improve.” 🚀 
