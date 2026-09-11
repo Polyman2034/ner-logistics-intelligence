@@ -131,4 +131,4 @@ The interface includes multilingual support to make the platform more accessible
                     │    SQL / Application Data │
                     └───────────────────────────┘
 ```
-<hr> <p align="center"> <i>“Learn. Build. Experiment. Improve.”</i> 🚀 </p> `
+<hr> <p align="center"> <i>“Learn. Build. Experiment. Improve.”</i> 🚀 </p> 
